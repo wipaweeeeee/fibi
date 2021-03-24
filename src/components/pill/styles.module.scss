@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+@import '../../styles/typography.scss';
+
+.pillContainer {
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.pill {
+	padding: 10px 20px;
+	border-radius: 22px;
+	text-transform: uppercase;
+	display: inline-flex;
+	font-family: 'Inter-SemiBold';
+	font-size: 14px;
+}
+
+.red {
+	background-color: rgba($red, 0.2);
+	color: $red;
+}
+
+.yellow {
+	background-color: $yellow;
+	color: white;
+}

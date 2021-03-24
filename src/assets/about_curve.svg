@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="256px" viewBox="0 0 512 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-844.000000, -1044.000000)" fill="#FFC300">
+            <path d="M1100,1044 C1239.97105,1044 1353.70502,1156.33426 1355.9657,1295.76657 L1356,1300 L1262.832,1299.99922 C1260.15842,1212.36826 1188.27936,1142.1502 1100,1142.1502 C1011.72064,1142.1502 939.841584,1212.36826 937.167998,1299.99922 L844,1300 C844,1158.6151 958.615104,1044 1100,1044 Z" id="Combined-Shape" transform="translate(1100.000000, 1172.000000) rotate(-180.000000) translate(-1100.000000, -1172.000000) "></path>
+        </g>
+    </g>
+</svg>

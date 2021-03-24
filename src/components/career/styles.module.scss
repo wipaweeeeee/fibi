@@ -1,0 +1,175 @@
+@import '../../styles/variables.scss';
+@import '../../styles/typography.scss';
+
+.container {
+	background-color: $bg;
+	padding: 0 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.BGImage {
+	position: absolute;
+	top: 20px;
+	right: 5%;
+	transform: scale(0.8);
+}
+
+.content {
+	max-width: 1260px;
+	padding: 120px 0px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.position {
+	font-family: 'Inter-Black';
+	text-transform: uppercase;
+	font-size: 48px;
+	color: $red;
+	width: 45%;
+	cursor: pointer;
+
+	div {
+		padding: 20px 0;
+		border-bottom: 1px solid $red;
+
+		&:first-child {
+			border-top: 1px solid $red;
+		}
+
+		&.selected {
+			position: relative;
+			&:after {
+				content: url("../../assets/career_arrow.svg");
+				position: absolute;
+				right: 0;
+				animation: arrow 0.2s ease-in 1;
+			}
+		}
+	}
+}
+
+.description {
+	color: $red;
+	width: 45%;
+	margin-left: auto;
+	display: flex;
+    align-items: center;
+    margin-top: -10px; //compensate for thai characters
+    font-size: 14px;
+
+	.hideDesc {
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+
+	.showDesc {
+		width: auto;
+		height: auto;
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+
+	p {
+		margin-bottom: 6px;
+
+		&:before {
+			content: "+";
+			padding-right: 6px;
+		}
+	}
+}
+
+@keyframes arrow {
+  0% {
+    right: 20px;
+  } 
+  100% {
+  	right: 0px;
+  }
+}
+
+
+.contact {
+	width: 100%;
+	margin-top: 80px;
+	color: $red;
+
+	a {
+		color: $red;
+		text-decoration: none;
+
+		&:hover {
+			opacity: 50%;
+		}
+	}
+}
+
+.mobTitle {
+	display: none;
+}
+
+//tablet
+@media only screen and (max-width: 1024px) {
+	.position {
+		font-size: 32px;
+
+		div { 
+			&.selected { 
+				&:after {
+					transform: scale(0.5);
+				}
+			}
+		}
+	}
+}
+
+//mobile
+@media only screen and (max-width: 768px) { 
+	.BGImage {
+		right: -3%;
+    	transform: scale(0.5);
+    	top: 0;
+	}
+
+	.position {
+		display: none;
+		width: 0;
+	}
+
+	.description {
+		width: 100%;
+		flex-wrap: wrap;
+
+		.showDesc {
+			margin-bottom: 20px;
+		}
+
+		.hideDesc {
+			opacity: 1;
+			width: auto;
+			height: auto;
+			margin-bottom: 20px;
+		}
+	}
+
+	.mobTitle {
+		display: block;
+		font-family: 'Inter-Black';
+		text-transform: uppercase;
+
+		&:before {
+			content: "" !important;
+			padding-right: 0 !important;
+		}
+	}
+}
+
+
+
+
+
+
