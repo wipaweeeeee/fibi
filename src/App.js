@@ -3,6 +3,7 @@ import './App.scss';
 // import Hero from './assets/hero_8.mp4';
 import About from './components/about/About';
 import Features from './components/features/Features';
+import Clients from './components/clients/Clients';
 import Career from './components/career/Career';
 
 var Airtable = require('airtable');
@@ -59,6 +60,7 @@ function App() {
     */}
     <About content={about} />
     <Features content={features} />
+    <Clients content={clients} />
     <Career content={careers} />
     </div>
   );

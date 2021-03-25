@@ -88,6 +88,10 @@
 	&.show { 
 		display: block;
  	}
+
+ 	&:nth-child(3n) {
+ 		padding-right: 0;
+ 	}
 }
 
 .buttonContainer {
@@ -116,6 +120,10 @@
 @media only screen and (max-width: 1024px) { 
 	.featureItem {
 		width: 40%;
+
+		&:nth-child(2n) {
+	 		padding-right: 0;
+	 	}
 	}
 }
 
