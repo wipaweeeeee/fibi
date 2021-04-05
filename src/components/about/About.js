@@ -32,7 +32,7 @@ const About = (props) => {
 	}
 
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} ref={props._ref} id="about">
 			<div className={styles.content}>
 				<Pill title="about" color="yellow" />
 				{ContentLang(lang)}

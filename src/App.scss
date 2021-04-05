@@ -5,10 +5,15 @@ body {
   font-family: 'Inter';
 }
 
-video {
-  width: 100%;
-}
-
 p, h2, h4 {
 	margin: 0;
+}
+
+.mapboxgl-map {
+	font-family: 'Inter';
+
+	h2 {
+		font-weight: normal;
+		font-size: 14px;
+	}
 }

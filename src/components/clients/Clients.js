@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import Pill from '../pill/Pill';
 import BG from '../../assets/clients_bg.svg';
 
-const clientTypes = ["tertiary", "secondary", "private"];
+const clientTypes = ["tertiary care", "secondary care", "private hospital"];
 
 const Clients = (props) => {
 
@@ -34,7 +34,7 @@ const Clients = (props) => {
 	})
 
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="clients" ref={props._ref}>
 			<div className={styles.content}>
 				<Pill title="clients" color="blue" />
 				<div className={styles.highlight}>

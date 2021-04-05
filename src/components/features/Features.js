@@ -68,7 +68,7 @@ const Features = (props) => {
 	})
 
 	return ( 
-		<div className={styles.container}>
+		<div className={styles.container} ref={props._ref} id="services" ref={props._ref}>
 			<div className={styles.content}>
 				<Pill title="services" color="red" />
 				<h2>front office services</h2>

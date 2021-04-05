@@ -1,0 +1,121 @@
+@import '../../styles/variables.scss';
+@import '../../styles/typography.scss';
+
+.container {
+	width: calc(100% - 80px);
+	padding: 0 40px;
+	height: 74px;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	transition: background-color 0.1s linear;
+	transition-delay: 0.1s;
+
+	&.home {
+		background-color: transparent;
+	}
+
+	&.about {
+		background-color: black;
+	}
+
+	&.services {
+		background-color: $red;
+	}
+
+	&.clients {
+		background-color: $yellow;
+
+		a { color: black; 
+			&:after {
+				border-color: black;
+			}
+		}
+	}
+
+	&.careers {
+		background-color: $red;
+	}
+
+	&.contact {
+		background-color: black;
+	}
+}
+
+.content {
+	max-width: 1260px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.logo {
+	width: 50%;
+}
+
+.navItems {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+	font-size: 16px;
+    font-family: 'Inter-SemiBold';
+
+    a {
+    	text-decoration: none;
+    	color: white;
+    	position: relative;
+
+		&:after {
+    		content: "";
+		    border-bottom: 1px solid white;
+		    width: 0;
+		    height: 20px;
+		    position: absolute;
+		    left: 0;
+		    transition: all 0.2s ease-in;
+		    transition-delay: 0.1s;
+    	}
+    }
+
+    .selected {
+    	&:after {
+    		width: 100%;
+    	}
+    }
+}
+
+.mobileIcon {
+	margin-left: auto;
+}
+
+.mobNavItems {
+	width: 100vw;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $red;
+    display: flex;
+    flex-direction: column;
+    padding: 19px 40px;
+
+    a {
+    	text-decoration: none;
+    	color: white !important;
+    	text-transform: capitalize;
+    	font-size: 20px;
+    	margin-bottom: 30px;
+    }
+}
+
+.topLine {
+	width: calc(100% - 80px);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+
+    .close { width: 18px; }
+}

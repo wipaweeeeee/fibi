@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+@import '../../styles/typography.scss';
+
+.container {
+	background-color: $yellow;
+	padding: 0 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.content {
+	max-width: 1260px;
+	padding: 120px 0px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+.set {
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.text {  
+	width: 50%;
+}
+
+.mapContainer {
+	width: 50%;
+	position: relative;
+
+	.map {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+}
+
+.popup {
+	color: red;
+}
+
+.copyrights {
+	width: calc(100% - 80px);
+    max-width: 1260px;
+    justify-content: space-between;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Inter-SemiBold';
+    position: absolute;
+    bottom: 40px;
+}
+
+.social {
+	a {
+		margin-right: 18px;
+
+		img { width: 32px; }
+	}
+}
+
+//mobile
+@media only screen and (max-width: 768px) {   
+	.text {  
+		width: 100%;
+	}
+
+	.copyrights {
+		flex-direction: column;
+	}
+}

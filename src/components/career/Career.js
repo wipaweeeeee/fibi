@@ -44,7 +44,7 @@ const Career = (props) => {
 	})
 
 	return (
-		<div className={styles.container}>
+		<div className={styles.container} id="careers" ref={props._ref}>
 			<img src={BGImage} className={styles.BGImage}/>
 			<div className={styles.content}>
 				<Pill title="career" color="red" />

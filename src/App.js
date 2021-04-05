@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import './App.scss';
-// import Hero from './assets/hero_8.mp4';
+import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Features from './components/features/Features';
 import Clients from './components/clients/Clients';
 import Career from './components/career/Career';
+import Contact from './components/contact/Contact';
+import Nav from './components/nav/Nav';
 
 var Airtable = require('airtable');
 
@@ -15,6 +17,12 @@ function App() {
   const [ clients, setClients ] = useState([]);
   const [ careers, setCareers ] = useState([]);
   const [ contact, setContact ] = useState([]);
+
+  let aboutSec = useRef();
+  let featuresSec = useRef();
+  let clientsSec = useRef();
+  let careersSec = useRef();
+  let contactSec = useRef();
 
   const retrieveContent = () => {
     
@@ -54,14 +62,13 @@ function App() {
 
   return (
     <div className="container">
-    {/*<div className="hero">  
-      <video autoPlay loop src={Hero} />
-    </div>
-    */}
-    <About content={about} />
-    <Features content={features} />
-    <Clients content={clients} />
-    <Career content={careers} />
+      <Nav about={aboutSec} features={featuresSec} clients={clientsSec} careers={careersSec} contact={contactSec}/>
+      <Hero />
+      <About content={about} _ref={aboutSec}/>
+      <Features content={features} _ref={featuresSec} />
+      <Clients content={clients} _ref={clientsSec}/>
+      <Career content={careers} _ref={careersSec}/>
+      <Contact content={contact} _ref={contactSec}/>
     </div>
   );
 }
