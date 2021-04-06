@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/fibi/static/css/main.60af6a45.chunk.css",
+    "main.js": "/fibi/static/js/main.d9d2fb1f.chunk.js",
+    "main.js.map": "/fibi/static/js/main.d9d2fb1f.chunk.js.map",
+    "runtime-main.js": "/fibi/static/js/runtime-main.b80d36e1.js",
+    "runtime-main.js.map": "/fibi/static/js/runtime-main.b80d36e1.js.map",
+    "static/js/2.b0ee2ca9.chunk.js": "/fibi/static/js/2.b0ee2ca9.chunk.js",
+    "static/js/2.b0ee2ca9.chunk.js.map": "/fibi/static/js/2.b0ee2ca9.chunk.js.map",
+    "index.html": "/fibi/index.html",
+    "precache-manifest.0a41b8e2eed44373f07cb956cef2089c.js": "/fibi/precache-manifest.0a41b8e2eed44373f07cb956cef2089c.js",
+    "service-worker.js": "/fibi/service-worker.js",
+    "static/css/main.60af6a45.chunk.css.map": "/fibi/static/css/main.60af6a45.chunk.css.map",
+    "static/js/2.b0ee2ca9.chunk.js.LICENSE.txt": "/fibi/static/js/2.b0ee2ca9.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.f7c6d5a2.worker.js": "/fibi/static/js/mapbox-gl-csp-worker.f7c6d5a2.worker.js",
+    "static/js/mapbox-gl-csp-worker.f7c6d5a2.worker.js.map": "/fibi/static/js/mapbox-gl-csp-worker.f7c6d5a2.worker.js.map",
+    "static/media/App.scss": "/fibi/static/media/Inter-SemiBold.ec60b23f.ttf",
+    "static/media/about_bg.svg": "/fibi/static/media/about_bg.7ff05451.svg",
+    "static/media/about_circle.svg": "/fibi/static/media/about_circle.d62a3428.svg",
+    "static/media/about_curve.svg": "/fibi/static/media/about_curve.a4662973.svg",
+    "static/media/about_rec.svg": "/fibi/static/media/about_rec.2b9775f2.svg",
+    "static/media/blogspot.svg": "/fibi/static/media/blogspot.029ea3f2.svg",
+    "static/media/styles.module.scss": "/fibi/static/media/career_arrow.6dde4869.svg",
+    "static/media/clients_bg.svg": "/fibi/static/media/clients_bg.817a8813.svg",
+    "static/media/close.svg": "/fibi/static/media/close.cde4c831.svg",
+    "static/media/fb.svg": "/fibi/static/media/fb.599eb2f9.svg",
+    "static/media/general.svg": "/fibi/static/media/general.c35aed6c.svg",
+    "static/media/header.gif": "/fibi/static/media/header.ed7e335e.gif",
+    "static/media/header_video.mp4": "/fibi/static/media/header_video.76f74cb1.mp4",
+    "static/media/joinus.svg": "/fibi/static/media/joinus.86114a2b.svg",
+    "static/media/line.svg": "/fibi/static/media/line.7b7976b4.svg",
+    "static/media/logo.svg": "/fibi/static/media/logo.5179e0c0.svg",
+    "static/media/menu.svg": "/fibi/static/media/menu.6096939a.svg",
+    "static/media/service_bg.svg": "/fibi/static/media/service_bg.1d591f60.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b80d36e1.js",
+    "static/js/2.b0ee2ca9.chunk.js",
+    "static/css/main.60af6a45.chunk.css",
+    "static/js/main.d9d2fb1f.chunk.js"
+  ]
+}
