@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/fibi/static/css/main.60af6a45.chunk.css",
-    "main.js": "/fibi/static/js/main.8c2410f2.chunk.js",
-    "main.js.map": "/fibi/static/js/main.8c2410f2.chunk.js.map",
+    "main.js": "/fibi/static/js/main.65a4e6a6.chunk.js",
+    "main.js.map": "/fibi/static/js/main.65a4e6a6.chunk.js.map",
     "runtime-main.js": "/fibi/static/js/runtime-main.b80d36e1.js",
     "runtime-main.js.map": "/fibi/static/js/runtime-main.b80d36e1.js.map",
-    "static/js/2.97f30fc5.chunk.js": "/fibi/static/js/2.97f30fc5.chunk.js",
-    "static/js/2.97f30fc5.chunk.js.map": "/fibi/static/js/2.97f30fc5.chunk.js.map",
+    "static/js/2.e8928038.chunk.js": "/fibi/static/js/2.e8928038.chunk.js",
+    "static/js/2.e8928038.chunk.js.map": "/fibi/static/js/2.e8928038.chunk.js.map",
     "index.html": "/fibi/index.html",
-    "precache-manifest.c5e4584aac3124072dca3abe4762948b.js": "/fibi/precache-manifest.c5e4584aac3124072dca3abe4762948b.js",
+    "precache-manifest.1253c6345f1438367963fc57d9e5c1e5.js": "/fibi/precache-manifest.1253c6345f1438367963fc57d9e5c1e5.js",
     "service-worker.js": "/fibi/service-worker.js",
     "static/css/main.60af6a45.chunk.css.map": "/fibi/static/css/main.60af6a45.chunk.css.map",
-    "static/js/2.97f30fc5.chunk.js.LICENSE.txt": "/fibi/static/js/2.97f30fc5.chunk.js.LICENSE.txt",
-    "static/js/mapbox-gl-csp-worker.ed1326bb.worker.js": "/fibi/static/js/mapbox-gl-csp-worker.ed1326bb.worker.js",
-    "static/js/mapbox-gl-csp-worker.ed1326bb.worker.js.map": "/fibi/static/js/mapbox-gl-csp-worker.ed1326bb.worker.js.map",
+    "static/js/2.e8928038.chunk.js.LICENSE.txt": "/fibi/static/js/2.e8928038.chunk.js.LICENSE.txt",
+    "static/js/mapbox-gl-csp-worker.47296100.worker.js": "/fibi/static/js/mapbox-gl-csp-worker.47296100.worker.js",
+    "static/js/mapbox-gl-csp-worker.47296100.worker.js.map": "/fibi/static/js/mapbox-gl-csp-worker.47296100.worker.js.map",
     "static/media/App.scss": "/fibi/static/media/Inter-SemiBold.ec60b23f.ttf",
     "static/media/about_bg.svg": "/fibi/static/media/about_bg.7ff05451.svg",
     "static/media/about_circle.svg": "/fibi/static/media/about_circle.d62a3428.svg",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b80d36e1.js",
-    "static/js/2.97f30fc5.chunk.js",
+    "static/js/2.e8928038.chunk.js",
     "static/css/main.60af6a45.chunk.css",
-    "static/js/main.8c2410f2.chunk.js"
+    "static/js/main.65a4e6a6.chunk.js"
   ]
 }
