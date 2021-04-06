@@ -52,6 +52,10 @@
 
 .logo {
 	width: 50%;
+
+	.mobile {
+		height: 20px;
+	}
 }
 
 .navItems {
@@ -107,6 +111,12 @@
     	text-transform: capitalize;
     	font-size: 20px;
     	margin-bottom: 30px;
+    }
+
+    .logo {
+    	img {
+    		height: 20px;
+    	}
     }
 }
 

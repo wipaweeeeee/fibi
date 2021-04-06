@@ -70,7 +70,7 @@ const Nav = (props) => {
 		<div className={classNames(styles.container, styles[section])}>
 			<div className={styles.content}>
 			<NavHashLink to="#home" smooth onClick={() => setSection("home")} className={styles.logo}>
-				<img src={Logo} />
+				<img src={Logo} className={mobile ? styles.mobile : null}/>
 			</NavHashLink>
 				{
 					!mobile && 

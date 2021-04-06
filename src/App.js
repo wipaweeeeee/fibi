@@ -26,7 +26,7 @@ function App() {
 
   const retrieveContent = () => {
     
-    var base = new Airtable({apiKey: 'keywJEKrRFRrPEmMI'}).base('appdaQadn3bwFXmNC');
+    var base = new Airtable({apiKey: process.env.REACT_APP_AIRTABLE_KEY}).base(process.env.REACT_APP_AIRTABLE_BASE);
 
     base('content').select().eachPage(function page(records, fetchNextPage) {
         records.forEach(function(record) {

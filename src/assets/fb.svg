@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
-<circle cx="15" cy="15" r="15"/>
-<path id="f" fill="#FFFFFF" d="M16.4,23.9v-8.1h2.7l0.4-3.2h-3.1v-2c0-0.9,0.3-1.5,1.6-1.5l1.7,0V6.2c-0.3,0-1.3-0.1-2.4-0.1
-	c-2.4,0-4.1,1.5-4.1,4.2v2.3h-2.7v3.2h2.7v8.1H16.4z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fb</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fb" fill="#000000" fill-rule="nonzero">
+            <path d="M15,0 C23.2842712,0 30,6.71572875 30,15 C30,23.2842712 23.2842712,30 15,30 C6.71572875,30 0,23.2842712 0,15 C0,6.71572875 6.71572875,0 15,0 Z M17.3,6.1 C14.9,6.1 13.2,7.6 13.2,10.3 L13.2,12.6 L10.5,12.6 L10.5,15.8 L13.2,15.8 L13.2,23.9 L16.4,23.9 L16.4,15.8 L19.1,15.8 L19.5,12.6 L16.4,12.6 L16.4,10.6 C16.4,9.7 16.7,9.1 18,9.1 L19.7,9.1 L19.7,6.2 C19.4,6.2 18.4,6.1 17.3,6.1 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
 </svg>

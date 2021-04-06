@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
 import Vid from '../../assets/header_video.mp4';
-import Gif from '../../assets/header_animation.gif';
+import Gif from '../../assets/header.gif';
 
 const Hero = (props) => {
 
