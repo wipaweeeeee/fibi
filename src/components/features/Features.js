@@ -9,6 +9,7 @@ const Features = (props) => {
 
 	const [ showFront, setShowFront ] = useState(false);
 	const [ showBack, setShowBack ] = useState(false);
+	const count = 5;
 
 	let frontContent = props.content.filter( item => item.fields.subSection === "frontOffice" ).sort((a,b) => a.fields.id - b.fields.id);
 	let backContent = props.content.filter( item => item.fields.subSection === "backOffice").sort((a,b) => a.fields.id - b.fields.id);
@@ -29,8 +30,8 @@ const Features = (props) => {
 			return (
 				<div key={index} className={classNames(
 						styles.featureItem, 
-						index > 2 && !showFront ? styles.hide : 
-						index > 2 && showFront ? styles.show : null)}>
+						index > count && !showFront ? styles.hide : 
+						index > count && showFront ? styles.show : null)}>
 					<div className={styles.image}>
 						<img src={item.fields.image === undefined ? Placeholder : image} />
 					</div>
@@ -56,8 +57,8 @@ const Features = (props) => {
 			return (
 				<div key={index} className={classNames(
 						styles.featureItem, 
-						index > 2 && !showBack ? styles.hide : 
-						index > 2 && showBack ? styles.show : null)}>
+						index > count && !showBack ? styles.hide : 
+						index > count && showBack ? styles.show : null)}>
 					<div className={styles.image}>
 						<img src={item.fields.image === undefined ? Placeholder : image} />
 					</div>

@@ -78,7 +78,7 @@ const Contact = (props) => {
 		let link = props.content.map((item, index) => {
 			if (item.fields.title === social) {
 				return (
-					<a href={item.fields.content} target="_blank"><img src={img} /></a>
+					<a href={item.fields.content} target="_blank" key={index}><img src={img} /></a>
 				)
 			}
 		})

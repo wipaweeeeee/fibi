@@ -8,7 +8,14 @@ import Career from './components/career/Career';
 import Contact from './components/contact/Contact';
 import Nav from './components/nav/Nav';
 
+import ReactGA from 'react-ga';
 var Airtable = require('airtable');
+
+const initializeReactGA = () => {
+    ReactGA.initialize(process.env.REACT_APP_GA);
+    ReactGA.pageview('home');
+    console.log("<3")
+}
 
 function App() {
 
@@ -58,6 +65,7 @@ function App() {
 
   useEffect(() => {
     retrieveContent();
+    initializeReactGA();
   }, []);
 
   return (
