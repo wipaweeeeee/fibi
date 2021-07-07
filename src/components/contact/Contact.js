@@ -1,9 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import styles from './styles.module.scss';
 import Pill from '../pill/Pill';
-import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp';
-// eslint-disable-next-line import/no-webpack-loader-syntax
-import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
 
 import FB from '../../assets/fb.svg';
 import Line from '../../assets/line.svg';
@@ -11,50 +8,7 @@ import Blogspot from '../../assets/blogspot.svg';
 
 const Contact = (props) => {
 
-	mapboxgl.workerClass = MapboxWorker;
-	mapboxgl.accessToken = 'pk.eyJ1Ijoibmlja3NlZHoiLCJhIjoiY2ttcWk4eDlxMDg4ZDJ2dDdvZTRvcmlkZiJ9.SOBiD7cf5_nF4NvOuzvgCA'
-
-	const mapContainer = useRef();
-	const [ lang, setLang ] = useState(100.619482);
-	const [ lat, setLat ] = useState(13.781787);
-	const [ zoom, setZoom ] = useState(15);
-
 	const year = new Date().getFullYear();
-	var map;
-
-	useEffect(() => {
-		map = new mapboxgl.Map({
-		container: mapContainer.current,
-		style: 'mapbox://styles/mapbox/dark-v10', //'mapbox://styles/nicksedz/ckmo2ik6x01vt17oh9p5rnowo',
-		center: [lang, lat],
-		zoom: zoom
-		});
-
-		var marker = new mapboxgl.Marker({color: '#F53B3B'})
-			.setLngLat([lang, lat])
-			.setPopup(new mapboxgl.Popup({closeOnClick: false, closeButton: false}).setHTML(
-				`<h2 className=${styles.popup}>Info D Software</h2>`
-			))
-			.addTo(map)
-			.togglePopup();
-		 
-		map.on('move', () => {
-			setLang(map.getCenter().lng.toFixed(4));
-			setLat(map.getCenter().lat.toFixed(4));
-			setZoom(map.getZoom().toFixed(2));
-		});
-
-		map.on('load', function () {
-		    map.resize();
-		});
-
-		map.on('click', () => {
-			window.open('https://goo.gl/maps/zxMgJZFwnW72', '_blank');
-		})
-		 
-	return () => map.remove();
-	}, []);
-
 	let content = props.content.map((item, index) => {
 
 		if (item.fields.title == undefined) {
@@ -103,7 +57,7 @@ const Contact = (props) => {
 					</div>
 				</div>
 				<div className={styles.mapContainer}>
-					<div className={styles.map} ref={mapContainer} />
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.952243216998!2d100.617238451!3d13.78175249028055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29dff5709337b%3A0x9203883ee1b18d07!2sInfo-D%20Software%20Co.%2CLtd.!5e0!3m2!1sen!2sus!4v1625626096075!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
 				</div>
 				<div className={styles.copyrights}>
 					<p>copyright {year} info-d software co ltd.</p>
