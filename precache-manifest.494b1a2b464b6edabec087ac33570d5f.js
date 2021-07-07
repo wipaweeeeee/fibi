@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "364d9682ddcd60a2d9a1dae9ea8164c9",
+    "revision": "35b0676c548a2b2bbc2b3aba330003de",
     "url": "/fibi/index.html"
   },
   {
-    "revision": "b528dcff153d9d210978",
-    "url": "/fibi/static/css/main.60af6a45.chunk.css"
+    "revision": "f62b647399976f2696f3",
+    "url": "/fibi/static/css/main.68f9d4a1.chunk.css"
   },
   {
-    "revision": "ec83f4adda63427c92c5",
-    "url": "/fibi/static/js/2.e8928038.chunk.js"
+    "revision": "896492d95f5280834f02",
+    "url": "/fibi/static/js/2.fa1b3429.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/fibi/static/js/2.e8928038.chunk.js.LICENSE.txt"
+    "url": "/fibi/static/js/2.fa1b3429.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b528dcff153d9d210978",
-    "url": "/fibi/static/js/main.65a4e6a6.chunk.js"
-  },
-  {
-    "revision": "bd4df7b2250f303bf4acd2feecd894a7",
-    "url": "/fibi/static/js/mapbox-gl-csp-worker.47296100.worker.js"
+    "revision": "f62b647399976f2696f3",
+    "url": "/fibi/static/js/main.4c2eb4f6.chunk.js"
   },
   {
     "revision": "feb39f08414eb5b2dd35",
